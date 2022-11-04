@@ -1,0 +1,761 @@
+        /* start main rules */
+ body{
+   background-color:#ffffff;
+   margin: 0;
+   padding: 0;
+   width: auto;
+   height: 1600px;
+    font-family:Roboto,monstserrat,sans-serif;
+ }
+  .container{
+    width: 1120px;
+    margin: auto;
+    overflow: hidden;
+ }
+   /* End main rules */
+ 
+ /* start header */
+ .header{
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+   height: 700px;
+   background-color:darkgray;
+   background-image: url(../image/b2.jpg); 
+   background-size: cover;
+ }
+.header .navbar{
+  color:#E8E8E9;
+  overflow: hidden;
+  text-transform: uppercase;
+  margin-bottom: 7%;
+ 
+}
+.header .navbar h2{
+color:#FFFFFF;
+float:left;
+font-size:30px;
+padding:0px
+}
+.header .navbar ul{
+ list-style: none;
+ padding-left: 0;
+ overflow: hidden;
+ float:right;
+}
+.header .navbar ul li{
+ float:left;
+padding:10px;
+}
+.header .navbar ul li a.active{
+color:#E74A59;
+text-decoration: underline;
+}
+.header .navbar ul li a{text-decoration: none;
+color:white;
+}
+.header .navbar ul li a:hover{
+color:#E74A59;
+}
+.header .slider{
+  overflow: hidden;   
+}
+.header .slider span{
+ color:#FFFFFF;
+ background-position: center;
+ font-size: 30px;
+}
+.header .slider h1{
+ color:#FFFFFF;
+ background-position: center;
+ font-size: 90px;
+}
+.header .slider input{
+width: 170px;
+height: 50px;
+background: none;
+border: 2px solid #E25580;
+font-size: 25px;
+font-weight:bold;
+}
+  /* End header */
+
+ /* start story */
+.story{
+overflow: hidden;  
+}
+.story .feat{
+    float:left;
+    height: 300px;
+    width:inherit;
+    background-color:#ffffff;
+}
+.story .feat h2{
+   text-transform: uppercase;
+   margin-top: 90px;
+   font-weight: bolder;
+   font-size: 50px;
+   text-align: center;
+   margin-bottom:-12px;
+}
+.story .feat .line{
+    letter-spacing:-5px;
+     text-align: center;
+    font-size: 40px;
+}
+.story .feat p{
+   text-align: center;
+   letter-spacing: 2px;
+   font-weight: 50px;
+   line-height:30px;
+}
+.story .pic .img{
+ position: relative;
+    width: 30%;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    margin-top: 5%;
+    float:left;
+   }
+.story .pic .img img{width: 100%;}
+.story .pic .img>div{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 99%;
+    height: 99%;
+    opacity: 0;
+    background-color: deeppink;
+   padding-right: 1%;
+}
+.story .pic .img:hover div {
+   opacity: .3;
+    transition: .5s ease;
+}
+.story .bar{
+background-color:#F3CA52;
+height:240px;
+margin-top: 70px;
+}
+.story .bar .one{
+    position: relative;
+    width: 25%;
+    margin-right:0;
+    margin-left:0;
+    margin-top:4%;
+    float: left;
+    margin-bottom: 5%;
+}
+.story .bar .one h2{
+font-size: 40px;
+color:#E25C74;
+font-weight: 550;
+letter-spacing:2px;
+margin-bottom:0;
+margin-left:80px;
+}
+.story .bar .one p{
+font-size: 20px;
+letter-spacing:2px;
+margin-top:-7px;
+margin-left:80px;
+}
+/* End story */
+/*start AMAZING SERVICES*/
+.amazing{
+overflow: hidden;  
+}
+.amazing .pr{
+    float:left;
+    height: 300px;
+    width:inherit;
+    background-color:#ffffff;
+}
+.amazing .pr h2{
+   text-transform: uppercase;
+   margin-top: 90px;
+   font-weight: bolder;
+   font-size: 50px;
+   text-align: center;
+   margin-bottom:-12px;
+}
+.amazing .pr .sline{
+    letter-spacing:-5px;
+     text-align: center;
+    font-size: 40px;
+}
+.amazing .pr p{
+   text-align: center;
+   letter-spacing: 2px;
+   font-weight: 50px;
+   line-height:30px;
+}
+.amazing .emoji{
+background-color:#ffff;
+margin-top: 70px;
+}
+.amazing .emoji .two{
+     position: relative;
+    width: 25%;
+    margin-right:0;
+    margin-left:0;
+    margin-top:3%;
+    float: left;
+    margin-bottom: 4%;
+}
+.amazing .emoji .two i{
+margin-left:110px;
+line-height:90px;
+}
+
+.amazing .emoji .two h2{
+font-size: 19px;
+color:#F3CA52;
+font-weight: 550;
+letter-spacing:2px;
+margin-bottom:0;
+ text-align: center;
+}
+.amazing .emoji .two p{
+letter-spacing:2px;
+margin-top:-7px;
+line-height:25px;
+text-align: center;
+}
+
+.amazing .emoji .two:hover i {
+    color:rgb(226,85,128) ;
+   opacity: .3;
+    transition: .5s ease;
+}
+/*End AMAZING SERVICES*/
+/*start OUR PHOTOGRAPHERS*/
+.photog{
+overflow: hidden;
+background-color:#E25580;
+}
+.photoge .pg{
+    float:left;
+    height: 300px;
+    width:inherit;
+}
+.photog .pg h2{
+   color: #ffffff;
+   text-transform: uppercase;
+   margin-top: 90px;
+   font-weight: bolder;
+   font-size: 50px;
+   text-align: center;
+   margin-bottom:-12px;
+}
+.photog .pg .tline{
+    letter-spacing:-5px;
+     text-align: center;
+    font-size: 40px;
+}
+.photog .pg p{
+   text-align: center;
+   letter-spacing: 2px;
+   font-weight: 50px;
+   line-height:30px;
+}
+.photog .pc .imge{
+ position: relative;
+    width: 30%;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    margin-top: 5%;
+    float:left;
+   }
+.photog .pc .imge img{width: 100%;}
+.photog .pc .imge>div{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 99%;
+    height: 99%;
+    opacity: 0;
+    background-color: black;
+   padding-right: 1%;
+    text-align: center;
+}
+.photog .pc .imge:hover div {
+   opacity: .7;
+    transition: .5s ease;
+}
+.photog .pc .imge>div>button{
+     margin-top: 65%;
+    width: 35px;
+    height:35px;
+    background: none;
+}
+.photog .pc .imge>div>button>i{
+color: #E25580;
+opacity: 1;
+}
+.photog .pc .imge>div>button:hover i{
+color: #F3CA52;
+opacity: 1;
+transition: .5s ease;
+}
+.photog .pc .name{
+    text-align: center;
+     position: relative;
+    width: 30%;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    float:left;
+}
+.photog .pc .name h3{
+   color:  #F3CA52;
+   font-weight: bolder;
+   margin-top:5px;
+   letter-spacing:2px;
+   margin-bottom:0;
+  font-size: 23px;
+}
+.photog .pc .name p{
+letter-spacing:2px;
+margin-top: -3px;
+line-height:8px;
+margin-bottom:80px;
+}
+/*End OUR PHOTOGRAPHERS*/
+/*End SOME OF OUR WORK*/
+.our{
+overflow: hidden;
+margin-bottom: 60px;
+}
+.our .work{
+    float:left;
+    height: 300px;
+    width:inherit;
+}
+.our .work h1{
+   color:black;
+   text-transform: uppercase;
+   margin-top: 90px;
+   font-weight: bolder;
+   font-size: 50px;
+   text-align: center;
+   margin-bottom:-12px;
+}
+.our .work .bline{
+    letter-spacing:-5px;
+     text-align: center;
+    font-size: 40px;
+}
+.our .work p{
+   text-align: center;
+   letter-spacing: 2px;
+   font-weight: 50px;
+   line-height:30px;
+}
+.our .images{
+    display: flex;
+}
+.our .images .flow,.our .images .pen{
+width:340px;
+height:448px;
+}
+.our .images .flow img{
+height:50%;
+width: 100%;
+}
+.marg{
+margin-top: -5px;
+}
+.our .images .pen img{
+height:100%;
+width: 100%;
+}
+.our .images img{
+filter: grayscale(100%);
+}
+.our .images a img:hover{
+transition: .6s ease;
+filter: grayscale(0);
+}
+/*End SOME OF OUR WORK*/
+/*Start WHAT PEOPLE SAYS*/
+.peoples{
+overflow: hidden; 
+background-color:#E25580;
+}
+.peoples .say{
+    float:left;
+    height: 300px;
+    width:inherit;
+}
+.peoples .say h2{
+   color: #ffffff;
+   text-transform: uppercase;
+   margin-top: 90px;
+   font-weight: bolder;
+   font-size: 50px;
+   text-align: center;
+   margin-bottom:-12px;
+}
+.peoples .say .hline{
+letter-spacing:-5px;
+text-align: center;
+font-size: 40px;
+}
+.peoples .say p{
+   text-align: center;
+   letter-spacing: 2px;
+   font-weight: 50px;
+   line-height:30px;
+}
+.peoples .people{
+float: left;
+width: 50%;
+min-height: 100px;
+}
+.peoples .people .icon{
+float:left;
+width:20%;
+margin-right:5%;
+}
+.peoples .people .icon img{
+max-width: 100%;
+margin: 20px 10px 0 0;
+display: block;
+border-radius: 50% 50%;
+}
+.peoples .people .txt{
+float:left;
+width: 75%;
+}
+.peoples .people .txt p{
+letter-spacing:2px;
+line-height:25px;
+text-align: left;
+margin-bottom:-5px;
+}
+.peoples .people .txt h2{
+font-size: 19px;
+color:#F3CA52;
+font-weight: 550;
+letter-spacing:2px;
+margin-top:7px;
+text-align: left;
+}
+.peoples .people .txt h2 span{
+font-size: 15px;
+color:#ffff;
+font-weight: 350;
+margin-top:7px;
+text-align: left;
+}
+
+/*End WHAT PEOPLE SAYS*/
+/*Start CONTACT US*/
+.sing{
+overflow: hidden; 
+}
+.sing .contact{
+    float:left;
+    height: 300px;
+    width:inherit;
+}
+.sing .contact h2{
+   text-transform: uppercase;
+   margin-top: 90px;
+   font-weight: bolder;
+   font-size: 50px;
+   text-align: center;
+   margin-bottom:-12px;
+}
+.sing .contact .uline{
+letter-spacing:-5px;
+text-align: center;
+font-size: 40px;
+}
+.sing .contact p{
+   text-align: center;
+   letter-spacing: 2px;
+   font-weight: 50px;
+   line-height:30px;
+}
+.sing .block .small{
+float: left;
+display: inline-block;
+width: 50%;
+height: 70px;
+}
+.sing .block .small input{
+width: 90%;
+height: 40px;
+border: .8px;
+padding-left: 7px;
+}
+.sing .block .big{
+float: left;
+width: 100%;
+}
+.sing .block .big textarea{
+width: 95%;
+height:200px;
+border: .8px;
+padding-left: 10px;
+padding-top: 5px;
+}
+.sing .block .bott input{
+color:black;
+background-color: #E25580;
+margin-top:30px;
+margin-bottom: 70px;
+width: 300px;
+height:45px;
+font-size: 25px;
+letter-spacing: 1px;
+font-weight:bold;
+border: 0;
+border-radius: 2px;
+}
+.sing .block .bott input:hover{
+color:#ffff;
+background-color:#F3CA52 ;
+}
+/*End CONTACT US*/
+/*Start paragrefe*/
+.pragraf {
+background-color:#F3CA52;
+height:300px;
+height: 230px;
+}
+.pragraf>div p{
+ text-align: left; 
+font-size: 25px;
+line-height: 40px;
+letter-spacing: 2.5px;
+padding: 55px 20%;
+}
+.blog{
+overflow: hidden; 
+}
+.blog .blg{
+    float:left;
+    height: 300px;
+    width:inherit;
+}
+.blog .blg h2{
+   text-transform: uppercase;
+   margin-top: 90px;
+   font-weight: bolder;
+   font-size: 50px;
+   text-align: center;
+   margin-bottom:-12px;
+}
+.blog .blg .zline{
+letter-spacing:-5px;
+text-align: center;
+font-size: 40px;
+}
+.blog .blg p{
+   text-align: center;
+   letter-spacing: 2px;
+   font-weight: 50px;
+   line-height:30px;
+}
+.blog .pec .erza{
+ position: relative;
+    width: 30%;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    margin-top: 5%;
+    float:left;
+   }
+.blog .pec .erza img{width: 100%;}
+.blog .pec .erza>div{
+background-color: #E25580;
+width: 60px;
+height:60px;
+position: absolute;
+top:158px;
+bottom: -39px;
+left: -7px;
+}
+.blog .pec .erza>div p{
+color:white;
+text-align: center;
+
+}
+.blog .nam{
+     position: relative;
+    width: 30%;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    float:left;
+}
+.blog .nam h3{
+   color:  #F3CA52;
+   font-weight: bolder;
+   margin-top:5px;
+   letter-spacing:2px;
+   margin-bottom:0;
+  font-size: 23px;
+}
+.blog .nam p{
+letter-spacing:1px;
+margin-top: -3px;
+line-height:30px;
+}
+.blog .nam a{
+text-decoration: none;
+color: #E25580;
+margin-top:-11px;;
+}
+.blog .nam ul{
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+.blog .nam ul li{
+    width: 20px;
+    height: 20px;
+    background-color: darkgray;
+    display: inline-block;
+}
+.blog .nam ul li:hover{
+    color:white;
+    background-color:cyan;
+}
+/*End paragrefe*/
+/*Start last block*/
+.end{
+overflow: hidden;
+background-color: #E25580;
+float:left;
+width: 100%;
+display: inline-block;
+min-height: 100px;
+}
+.end .address{
+padding-top: 60px;
+width: 40%;
+overflow: hidden;
+float: left;
+display: inline-block;
+margin-bottom: 70px;
+}
+.end .address h2{
+color:#F3CA52;
+letter-spacing:1px;
+}
+.end .address p{
+letter-spacing:2.5px;
+font-size: large;
+line-height: 30px;
+}
+.end .address p span{color:#F3CA52;}
+.end .address p span:hover{color:white;}
+.end .address h1{color:#F3CA52;padding-bottom: 0;font-size: 30px;}
+.end .address h1>hr{
+border-color:black;
+width: 95%;
+}
+.end .address i{
+color: white;
+margin-right:10px;
+margin-bottom:20px;
+}
+.end .address i:hover{color:#F3CA52; }
+.end .address input{
+width:270px;
+height:40px;
+border:0;
+padding-left: 9px;
+background-color: #F1F1F1;
+}
+.end .address button{
+width:140px;
+height:42px;
+border:0;
+color:white;
+background-color: #F3CA52;
+margin-left:-4px;
+letter-spacing: 1.4px;
+}
+.end .address button:hover{
+color:black;
+background-color: white;
+}
+.end .bloog{
+padding-top: 60px;
+width: 35%;
+overflow: hidden;
+float:left;
+display: inline-block;
+margin-bottom: 70px;
+}
+.end .bloog h2{
+color:#F3CA52;
+letter-spacing:1px;
+}
+end .bloog .lolo {
+float: left;
+display: inline-block;
+overflow: hidden;
+}
+.end .bloog .lolo .foto{
+overflow: hidden;
+display:inline-block;
+}
+.end .bloog .lolo .foto img{
+width: 130px;
+height: 40px;
+margin-right:6px;
+display: block;
+margin-top: 5px;
+}
+.end .bloog .lolo .data{
+overflow: hidden;
+display: inline-block;
+margin-left: 8px;
+}
+.end .bloog .lolo .data p{
+letter-spacing:2px;
+line-height:25px;
+text-align: left;
+margin-bottom:-3px;
+}
+.end .bloog .lolo .data p>span{
+color: white;
+}
+.end .fot{
+padding-top: 60px;
+overflow: hidden;
+margin-bottom: 70px;
+}
+.end .fot h2{
+ color:#F3CA52;
+letter-spacing:1px;   
+} 
+.end .fot .fhoto img{
+margin:3px;
+}
+.end .if{
+overflow: hidden;
+margin-bottom: 10px;
+}
+.end .if hr{
+border-color: gray;
+}
+.end .if p{
+    color:white;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.end .if p>span{
+color:#F3CA52;
+}
+.end .if p>span:hover{
+color:white;
+}
+/*End lst block*/

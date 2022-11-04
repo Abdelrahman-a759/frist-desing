@@ -1,0 +1,19 @@
+   div.title
+{
+    background-image:url"images/b1.jpg";
+    color:blue;
+   
+}
+
+   <div class="one">
+        <ul>
+            <li>SNAP-PIC</li>
+            <li>HOME </li>
+            <li>ABOUT</li>
+            <li>SERVICE </li>
+            <li>GALLERY </li>
+            <li>CLIENTS </li>
+        </ul>
+        <p>Quality Photos<br>Impressive<br>Work</p>
+        <input type="text" placeholder="Book Now">
+    </div>
